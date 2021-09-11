@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">AppFoodOrder</string>
+    <string name="login_usename">Tài Khoản</string>
+    <string name="login_password">Mật Khẩu</string>
+    <string name="screenlist">Đặt Hàng</string>
+    <string name="camon">Cảm ơn bạn đã đặt hàng,chúc bạn ngon miệng</string>
+</resources>

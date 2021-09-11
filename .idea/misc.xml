@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable/ic_outline_arrow_back_24.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable/item_giohang.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable/item_head.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable/item_list.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/drawable/item_login.xml" value="0.2203125" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/activity_main.xml" value="0.22" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/activity_screen_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/activity_screen_list_food.xml" value="0.1" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/activity_screen_list_food2.xml" value="0.19010416666666666" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/item_cart.xml" value="0.20416666666666666" />
+        <entry key="..\:/HocTap/AppAndoroid/app/src/main/res/layout/item_listview.xml" value="0.20416666666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
