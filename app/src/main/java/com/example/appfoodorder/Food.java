@@ -1,5 +1,7 @@
 package com.example.appfoodorder;
 
+import java.util.Objects;
+
 public class Food {
     String nameFood;
     double price;
@@ -33,5 +35,18 @@ public class Food {
 
     public void setNumber(int number) {
         this.number = number;
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (!(o instanceof Food)) return false;
+        Food food = (Food) o;
+        return getNameFood().equals(food.getNameFood());
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(getNameFood());
     }
 }

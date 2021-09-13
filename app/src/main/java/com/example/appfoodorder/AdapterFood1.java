@@ -8,10 +8,11 @@ import android.widget.TextView;
 
 import java.util.List;
 
-public class AdapterFood extends BaseAdapter {
+public class AdapterFood1 extends BaseAdapter {
     List<Food> foods;
 
-    public AdapterFood(List<Food> foods) {
+
+    public AdapterFood1(List<Food> foods) {
         this.foods = foods;
     }
 
@@ -33,10 +34,12 @@ public class AdapterFood extends BaseAdapter {
     @Override
     public View getView(int i, View view, ViewGroup viewGroup) {
         LayoutInflater layoutInflater = LayoutInflater.from(viewGroup.getContext());
-        View v = layoutInflater.inflate(R.layout.item_listview,viewGroup,false);
+        View v = layoutInflater.inflate(R.layout.item_listview1,viewGroup,false);
         TextView tvname = v.findViewById(R.id.tvTenMonAn);
+        TextView tvSl = v.findViewById(R.id.tvSl);
         Food food = foods.get(i);
         tvname.setText(food.getNameFood());
+        tvSl.setText(Integer.toString(food.getNumber()));
         return v;
     }
 }

@@ -14,10 +14,11 @@
         android:orientation="horizontal">
         <ImageView
             android:id="@+id/imgQuayLai"
-            android:layout_width="70dp"
-            android:layout_height="70dp"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
             android:src="@drawable/back"
             android:layout_gravity="center"
+            android:paddingRight="10dp"
             android:layout_marginLeft="10dp"/>
         <TextView
             android:layout_width="match_parent"
@@ -30,7 +31,7 @@
     </LinearLayout>
 
     <ListView
-        android:id="@+id/lvFood1"
+        android:id="@+id/lvFoodx"
         android:layout_width="match_parent"
         android:layout_height="450dp"
         android:layout_marginLeft="20dp"

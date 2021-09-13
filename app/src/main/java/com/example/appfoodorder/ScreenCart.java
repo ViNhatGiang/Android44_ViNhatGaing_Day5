@@ -12,25 +12,30 @@ import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.TextView;
 
+import java.util.ArrayList;
 import java.util.List;
+import java.util.Set;
 
 public class ScreenCart extends AppCompatActivity {
     ImageView imgQuayLai;
-    AdapterFood adapterFood;
+    AdapterFood1 adapterFood1;
     ListView lvFood;
     TextView tvTongTienCode;
     Double tongtien=  tinhTien;
-    List<Food> foods=ScreenListFood.foodorders;
+    //Set<Food> food1=ScreenListFood.foodSet;
+    List<Food> food1=ScreenListFood.foodSet;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_screen_cart);
-        lvFood=findViewById(R.id.lvFood1);
-        adapterFood = new AdapterFood(foods);
-        lvFood.setAdapter(adapterFood);
-        tvTongTienCode=findViewById(R.id.tvTongTien);
+        conNec();
+
+        adapterFood1 = new AdapterFood1(food1);
+        lvFood.setAdapter(adapterFood1);
+        //
         tvTongTienCode.setText(Double.toString(tongtien));
-        imgQuayLai=findViewById(R.id.imgQuayLai);
+        //
         imgQuayLai.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -38,5 +43,10 @@ public class ScreenCart extends AppCompatActivity {
                 startActivity(mhc);
             }
         });
+    }
+    private void conNec(){
+        lvFood=findViewById(R.id.lvFoodx);
+        tvTongTienCode=findViewById(R.id.tvTongTien);
+        imgQuayLai=findViewById(R.id.imgQuayLai);
     }
 }
